@@ -117,7 +117,8 @@ $("#TabelaGerador td").click(function() {
   $("#GeradorSentencaAtual").val(Result);
 });
 
-TabelaFixa = {S:{a:'aBb', b:'bCc'},A:{b:'E', d:'dCc'},B:{c:'cAb', d:'aAb'},C:{a:'aBb'}};
+TabelaFixa = {S:{a:'aBd', b:'bCc'}, A:{a:'E',d:'dCc'}, B:{a:'aCc', c:'cAa'}, C:{a:'aBb'}};
+
 TipoResolucao = "PassoaPasso";
 TabelaResolucao = [];
 

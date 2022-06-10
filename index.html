@@ -35,10 +35,10 @@
         <div class="area-gramatica col m2">
           <span>
             <strong>Gramática: <br></strong>
-            S ::= aBb | bCc <br>
+            S ::= aBd | bCc <br>
             A ::= dCc | ε <br>
-            B ::= cAb | aAb <br>
-            C ::= aBa <br>
+            B ::= cAa | aCc <br>
+            C ::= aBb <br>
           </span>
         </div>
 
@@ -57,9 +57,9 @@
           <span>
             <strong>Follow:</strong> <br>
             S ::= { $ } <br>
-            A ::= { c } <br>
-            B ::= { a, c } <br>
-            C ::= { a } <br>
+            A ::= { a } <br>
+            B ::= { b, d } <br>
+            C ::= { c } <br>
           </span>
         </div>
       </div>
@@ -92,7 +92,7 @@
             <tbody>
               <tr class="S">
                 <th scope="row left-row">S</th>
-                <td>S➔aBb</td>
+                <td>S➔aBd</td>
                 <td>S➔bCc</td>
                 <td></td>
                 <td></td>
@@ -100,18 +100,18 @@
               </tr>
               <tr class="A">
                 <th scope="row left-row">A</th>
-                <td></td>
                 <td>A➜&epsilon;</td>
+                <td></td>
                 <td></td>
                 <td>A➜dCc</td>
                 <td></td>
               </tr>
               <tr class="B">
                 <th scope="row left-row">B</th>
+                <td>B➜aCc</td>
                 <td></td>
+                <td>B➜cAa</td>
                 <td></td>
-                <td>B➜cAb</td>
-                <td>B➜aAb</td>
                 <td></td>
               </tr>
               <tr class="C">
